@@ -1,0 +1,4 @@
+- Make proper thread starting, with communication, and keep a list of what is running
+- Intercept CTRl-z in the main module : Forward this to orchestrator so it shuts everybody off properly.
+- In template module : add a proper shutdown func
+- In template module : add an orchestrator order handler (accepting automatically generated function names)
